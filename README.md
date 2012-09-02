@@ -1,6 +1,6 @@
 SpeedtestGrapher
 ================
 
-Graphs .csv files output from Speedtest.net for iOS and Android
+Graphs .csv files output from Speedtest.net for iOS and Android. 
 
-Party
+speedtests.csv file is an example data file for running. 
