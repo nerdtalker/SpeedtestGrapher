@@ -15,7 +15,7 @@ ratNames = {'Unk' :0, 'LTE':1, 'HSPA':2, 'EVDO':3}
 ###Define the device and network and filename
 device_name = "LG Optimus 4X"
 network = "AT&T"
-datafile2 = 'O4X.csv';
+datafile2 = 'speedtests.csv';
 
 def datesplit(s):
     escaped = ''.join(e for e in s if e.isalnum())
