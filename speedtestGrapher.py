@@ -58,7 +58,7 @@ def makehist(col,rat):
     
     fig, ax = plt.subplots(1)
     hist(data[:,colNames[col]]/scaler,bins=30,facecolor=color,alpha=0.75);
-    title(device_name + ' ' + network + ' ' + 'DC-HSPA+' + ' ' + col + ' - Speedtest.net')
+    title(device_name + ' ' + network + ' ' + ' ' + col + ' - Speedtest.net')
     xlabel(xname)
     ylabel(r'Counts (binned)')
     grid(True)    
